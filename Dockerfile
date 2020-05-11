@@ -1,4 +1,5 @@
-FROM centos:7
+FROM node
+
 MAINTAINER zabehalin
 
 WORKDIR /usr/src/app
