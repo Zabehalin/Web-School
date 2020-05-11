@@ -1,6 +1,4 @@
-FROM node
-
-MAINTAINER zabehalin
+FROM node:10
 
 WORKDIR /usr/src/app
 
