@@ -66,7 +66,8 @@ pipeline  {
            steps {
                echo " ============== starting TeleBOT =================="
                sh '''
-               docker run -d --restart=always --name web-school kosmos666/web-school
+               docker run -d --restart=always --name web-school -p 80:3000 kosmos666/web-school
+
                '''
            }
         }
