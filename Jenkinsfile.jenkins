@@ -70,16 +70,15 @@ pipeline  {
                '''
            }
         }
-        stage(" gulp ") {
-           steps {
-               echo " ============== starting TeleBOT =================="
-               sh '''
-               npm install
-               npm install gulp -g
-               gulp
-               '''
-           }
-        }
+        // stage(" gulp ") {
+        //    steps {
+        //        echo " ============== starting TeleBOT =================="
+        //        sh '''
+        //        npm install gulp -g
+        //        gulp
+        //        '''
+        //    }
+        // }
         // stage("Deploy to stage server") {
         //     steps {
         //         echo " ============== Running playbook =================="
